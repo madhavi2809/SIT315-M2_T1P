@@ -54,7 +54,7 @@ int main() {
 
     // Perform matrix multiplication and measure execution time
     auto start = high_resolution_clock::now();
-    matrixMultiplication(A, B, C, N);
+    Multiplication(A, B, C, N);
     auto stop = high_resolution_clock::now();
     auto duration = duration_cast<microseconds>(stop - start);
 
